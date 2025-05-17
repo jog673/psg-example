@@ -1,0 +1,6 @@
+print("Gato:Hola amo MIAU")
+print("Jhon:Hola Garfield")
+print("Jhon:Tienes hambre Garfield")
+print("Gato:si MIAU MIAU")
+print("Jhon: aqui te dejo tu lasaña Garfield me voy a trabajar")
+print("Gato: Gracias Jhon, ya vete")
