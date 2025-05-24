@@ -1,0 +1,9 @@
+Temperatura_Fahrenheit1=25
+Temperatura_Celsius=(Temperatura_Fahrenheit1-32)/1.8
+print(Temperatura_Celsius)
+Temperatura_Fahrenheit2=300
+Temperatura_Celsius=(Temperatura_Fahrenheit2-32)/1.8
+print(Temperatura_Celsius)
+Temperatura_Fahrenheit3=76
+Temperatura_Celsius=(Temperatura_Fahrenheit3-32)/1.8
+print(Temperatura_Celsius)
