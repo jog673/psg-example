@@ -1,3 +1,5 @@
+
+#valor 2.0e-3 Flotante
 print(type(3.2))
 variable_3= 2.0e-3
 print(variable_3)
@@ -8,7 +10,7 @@ tiempo_extra_segundos = 3600
 horas = (minutos + tiempo_extra_segundos /60)/60
 print(horas)
 
-#operadores aritmeticos
+
 # Operadores aritméticos
 a = 10
 b = 3
