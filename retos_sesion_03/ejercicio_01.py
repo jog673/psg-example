@@ -1,2 +1,2 @@
 print("Tormenta")
-prin("Gorillaz y BadBuny")
+print("Gorillaz y BadBuny")
