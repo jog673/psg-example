@@ -29,9 +29,34 @@ print('El mensaje enviado fue: "Hello, I\'m a message"')
 print ("El mensaje enviado fue: \"Hello, I\'m a message\"")
 print ('El mensaje enviado fue: \"Hello, I\'m a message\"')
 
+
+
+
+
 mensaje = "Hola,\n\teste es un mensaje \vcon algunos caracteres \
 especiales como \\ y tabulador."
 print(mensaje)
+
+#Metodo Input
+#el texto introducido es de una sola línea y se inserta al programa cuando se realiza Enter al terminar de escribir
+
+entrada = input("Ingrese un valor")
+print (entrada)
+print (type(entrada))
+
+entero = int(input("Ingrese un valor"))
+print (entrada)
+print (type(entrada))
+
+
+flotante = float(input("Ingrese un valor"))
+print (entrada)
+print (type(entrada))
+
+booleano = bool(input("Ingrese un valor"))
+print (entrada)
+print (type(entrada))
+
 
 print("Indexado positivo")
 fruta = "banana"
