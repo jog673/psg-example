@@ -94,3 +94,15 @@ print(keys, type(keys))
 keys = list(keys) # Convertir a lista
 print(keys, type(keys))
 print(keys[0], type(keys[0]))
+
+
+
+
+
+
+biblioteca = {'Titulo':"Harry Potter",'Autor':"JK rowling"}
+
+
+
+
+
