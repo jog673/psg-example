@@ -1,3 +1,5 @@
-variable1=3
-variable2=3
-print(not(variable1==variable2))
+print("operador XNOR")
+print(not(True ^ True))
+print(not(True ^ False))
+print(not(False ^ True))
+print(not(False ^ False))
