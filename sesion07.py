@@ -44,16 +44,18 @@ entrada = input("Ingrese un valor")
 print (entrada)
 print (type(entrada))
 
+#convierte en un entero el dato de entrada
 entero = int(input("Ingrese un valor"))
 print (entrada)
 print (type(entrada))
 
-
+#convierte en un flotante el dato de entrada
 flotante = float(input("Ingrese un valor"))
 print (entrada)
 print (type(entrada))
 
-booleano = bool(input("Ingrese un valor"))
+#convierte en un booleano el dato de entrada
+booleano = bool(int(input("Ingrese un valor")))
 print (entrada)
 print (type(entrada))
 
@@ -66,6 +68,7 @@ print(fruta[5])
 print(fruta[-6])
 print(fruta[-2])
 
+#nos sirve para sacer rebandas de la cadena
 print ("Slicing")
 ciudad =  "LaPaz-Bolivia"
 print (ciudad)
@@ -99,8 +102,18 @@ print ("Slicing con paso negativo")
 print (ciudad[10:4:-1])
 print (ciudad[10::-2])
 
+
+#repetición de cadenas
+print("repetición de candenas")
+cadena = "-#-"
+repetida = cadena * 10
+print (repetida)
+
+
+
 print ("Longitud de una cadena")
 cadena = "Hola Mundo :D"
 longitud = len(cadena)
 print (cadena)
 print (longitud, type(longitud))
+
