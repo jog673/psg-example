@@ -7,8 +7,11 @@ def operacion(numero1, numero2, operacion):
     elif operacion == "*":
         return numero1*numero2
     elif operacion == "/":
-        return numero1/numero2
+        if numero2 == 0:
+            return "Error: división entre cero"
+        else:
+            return numero1/numero2
     else:
         return "Operación no válida"
-resultado = operacion(10,5,"+")
+resultado = operacion(10,0,"/")
 print(resultado)

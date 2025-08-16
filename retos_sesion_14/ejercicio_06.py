@@ -1,3 +1,4 @@
+#Crear una función que reciba una lista de números y devuelva una lista con los números pares y otra lista con los números impares
 def separar_pares_impares(lista):
     pares = []
     impares = []
