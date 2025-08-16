@@ -67,8 +67,8 @@ val_4=copia[3]
 val_5=copia[4]
 val_6=copia[5]
 
-print(productos[precios.index(val_1)],productos[precios.index(val_2)],productos[precios.index(val_3)],productos[precios.index(val_4)],productos[precios.index(val_5)],productos[precios.index(val_6)])
-
+productos_ordenados = [productos[precios.index(val_1)],productos[precios.index(val_2)],productos[precios.index(val_3)],productos[precios.index(val_4)],productos[precios.index(val_5)],productos[precios.index(val_6)]]
+print(productos_ordenados)
 #8 Eliminar todos los productos de las listas
 print("\n")
 print("8 Eliminar todos los productos de las listas")

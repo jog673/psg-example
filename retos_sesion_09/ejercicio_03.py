@@ -4,11 +4,12 @@
 #Ordenar la sub lista alfabéticamente a-z
 #Ordenar la lista original alfabéticamente descendente z-a
 lista= ['Luis', 'Ayanin', 'Gabriel', 'Limber', 'Lucas', 'Margarita', 'Franz', 'Eduardo', 'Ivett', 'José']
-print(list)
-sub_lista = lista[5:9:2]
+print(lista)
+sub_lista = lista[5:10:2]
 print(sub_lista)
 busqueda = 'José'
-print(busqueda, lista.index(busqueda))
+buscar_jose = busqueda in lista
+print("Existe el nombre Jose:?",busqueda in lista, lista.index(busqueda))
 sub_lista.sort()
 print(sub_lista)
 sub_lista.sort(reverse=True)
