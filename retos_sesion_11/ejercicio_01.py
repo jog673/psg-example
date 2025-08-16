@@ -5,6 +5,10 @@ animal_marino = {'Especie': 'Delphinidae',
                  'Estado de salud':'Saludable', 
                  'Edad':'2', 
                  'Responsables':{'Jorge','Gabriel','Limber'}}
-for clave, valor in animal_marino.items():
-    print(f"{clave}:{valor}")
+print("Especie:", animal_marino['Especie'])
+print("Habitat:", animal_marino['Habitad'])
+print("Dieta:", animal_marino['Dieta'])
+print("Estado de salud:", animal_marino['Estado de salud'])
+print("Edad:", animal_marino['Edad'])
+print("Responsables:", animal_marino['Responsables'])
 
