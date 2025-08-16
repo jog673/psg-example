@@ -27,6 +27,8 @@ while True:
         operacion(num1, num2)
     except ValueError as e:
         print("☠️ Error",e)
+    except Exception as e:
+        print("☠️Error inesperado:",e)
 
     
     
