@@ -5,7 +5,13 @@ Jane = {'Lemon Pie', 'Brownie', 'Tarta de manzana', 'Helado de chocolate', 'Flan
 Jhon = {'Carrot Cake', 'Croissant de chocolate', 'Lemon Pie', 'Tarta de manzana', 'Pudding'}
 interseccion = Jane.intersection(Jhon)
 a=len(Jane)
-print(interseccion)
+b=len(Jhon)
+c= a + b
+print("Postres en comun: ",interseccion)
 b=len(interseccion)
-print(b >= a/2)
+compatibles = len(interseccion)> c*0.5
+print("Son compatibles?: ",compatibles)
+porcentaje = (len(interseccion)/c)*100
+print("Porcentaje en %:",porcentaje)
+
 
